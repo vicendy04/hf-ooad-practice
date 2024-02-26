@@ -5,12 +5,10 @@ public class DogDoorSimulator {
         DogDoor door = new DogDoor();
         Remote remote = new Remote(door);
         System.out.println("Fido barks to go outside...");
+        // Door opens, auto-closes on timer
         remote.pressButton();
         System.out.println("\nFido has gone outside...");
-        remote.pressButton();
         System.out.println("\nFido’s all done...");
-        remote.pressButton();
         System.out.println("\nFido’s back inside...");
-        remote.pressButton();
     }
 }
