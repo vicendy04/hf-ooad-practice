@@ -1,4 +1,4 @@
-package ch1;
+package inventorymanagement;
 
 import java.util.Iterator;
 import java.util.List;

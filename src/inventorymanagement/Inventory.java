@@ -1,9 +1,8 @@
-package ch1;
+package inventorymanagement;
 
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.zip.GZIPInputStream;
 
 public class Inventory {
     private List guitars;

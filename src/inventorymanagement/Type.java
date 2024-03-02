@@ -1,4 +1,4 @@
-package ch1;
+package inventorymanagement;
 
 public enum Type {
 

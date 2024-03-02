@@ -1,4 +1,4 @@
-package ch2;
+package doormanagement;
 
 public class Remote {
     private DogDoor door;

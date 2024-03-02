@@ -1,4 +1,4 @@
-package ch1;
+package inventorymanagement;
 
 public class Guitar {
     private String serialNumber;

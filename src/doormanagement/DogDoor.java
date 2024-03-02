@@ -1,4 +1,4 @@
-package ch2;
+package doormanagement;
 
 import java.util.Timer;
 import java.util.TimerTask;
