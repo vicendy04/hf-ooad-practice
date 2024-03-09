@@ -11,12 +11,12 @@ public class Inventory {
         inventory = new LinkedList();
     }
 
-    public void addGuitar(String serialNumber, double price,
-                          InstrumentSpec spec) {
+    public void addInstrument(String serialNumber, double price,
+                              InstrumentSpec spec) {
         Instrument instrument = null;
-        if (instrument instanceof Guitar) {
+        if (spec instanceof GuitarSpec) {
             instrument = new Guitar(serialNumber, price, (GuitarSpec) spec);
-        } else if (instrument instanceof Mandolin) {
+        } else if (spec instanceof MandolinSpec) {
             instrument = new Mandolin(serialNumber, price, (MandolinSpec) spec);
         }
         inventory.add(instrument);
