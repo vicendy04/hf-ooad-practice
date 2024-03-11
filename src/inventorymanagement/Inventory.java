@@ -13,12 +13,7 @@ public class Inventory {
 
     public void addInstrument(String serialNumber, double price,
                               InstrumentSpec spec) {
-        Instrument instrument = null;
-        if (spec instanceof GuitarSpec) {
-            instrument = new Guitar(serialNumber, price, (GuitarSpec) spec);
-        } else if (spec instanceof MandolinSpec) {
-            instrument = new Mandolin(serialNumber, price, (MandolinSpec) spec);
-        }
+        Instrument instrument = new Instrument(serialNumber, price, spec);
         inventory.add(instrument);
     }
 
