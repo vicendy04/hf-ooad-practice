@@ -28,9 +28,9 @@ public class InstrumentSpec {
         for (Iterator i = otherSpec.getProperties().keySet().iterator(); i.hasNext(); ) {
             String propertyName = (String) i.next();
             if (!properties.get(propertyName).equals(otherSpec.getProperty(propertyName))) {
-                return true;
+                return false;
             }
         }
-        return false;
+        return true;
     }
 }
